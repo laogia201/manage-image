@@ -1,0 +1,107 @@
+.folder {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.folder:hover {
+    background-color: #f0f0f03d;
+    border-radius: 5px;
+}
+
+.folder-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.folder-name {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.folder-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #f0f0f067;
+}
+
+.folder-list .folder-icon-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.more-action-grid{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.folder-list .folder-icon {
+    margin-right: 25px;
+}
+
+
+.folder-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f067;
+    border-radius: 5px;
+}
+
+.folder-grid .folder-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.folder-grid .folder-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.folder-list .more-folder{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: fit-content;
+    padding: 5px;
+    background-color: #f0f0f0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 199;
+    border-radius: 10px;
+}
+
+.folder-grid .more-folder{
+    position: absolute;
+    top: 25px;
+    right: 17px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 199;
+    border-radius: 10px;
+}
+
+.folder-name-input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}

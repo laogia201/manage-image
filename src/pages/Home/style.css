@@ -1,0 +1,43 @@
+body {
+    background-image: none;
+}
+
+.home-container{
+    padding: 0px 20px 0px 20px;
+}
+
+.view-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(73, 184, 79);
+    color: white;
+    cursor: pointer;
+}
+
+.viewtype-button{
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+
+.viewtype-button.active {
+    background-color: #49b84f;
+    color: #fff;
+    border-color: #49b84f;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
