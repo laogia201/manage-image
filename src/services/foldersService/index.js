@@ -50,7 +50,7 @@ export const deleteFolder = async (folderId) => {
 export const getAllFolders = async () => {
     try {
         const response = await axios.get(`${API_BASE_URL}/folders/get_all_folder.php`, {
-            withCredentials: true,
+            // withCredentials: true,
             headers: {
                 'Content-Type': 'application/json',
             },
